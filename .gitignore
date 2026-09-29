@@ -1,0 +1,58 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local datasets
+data/
+datasets/
+
+# Do not ignore these required deployment files:
+# app.py
+# requirements.txt
+# tfidf_vectorizer.pkl
+# decision_tree_model.pkl
